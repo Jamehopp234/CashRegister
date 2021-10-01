@@ -29,6 +29,7 @@ namespace CashRegister
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.mildSausageLabel = new System.Windows.Forms.Label();
             this.hotSausageLabel = new System.Windows.Forms.Label();
             this.hotdogLabel = new System.Windows.Forms.Label();
@@ -221,6 +222,7 @@ namespace CashRegister
             this.Controls.Add(this.hotdogLabel);
             this.Controls.Add(this.hotSausageLabel);
             this.Controls.Add(this.mildSausageLabel);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
             this.Text = "The Hot Diggity Dawg House";
             this.ResumeLayout(false);
